@@ -1,0 +1,478 @@
+@font-face {
+    font-family: "Tungtesn-Bold";
+    src: url(../Tungsten-Bold.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Este es el css de la barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 50px;
+    align-items: center;
+    height: 70px;
+    text-decoration: none;
+}
+
+.Logo {
+    width: 65px;
+    height: 45px;
+}
+a{
+    text-decoration: none;
+}
+.button-signup {
+    position: relative;
+    background-color: #FF4654;
+    border-radius: 25px;
+    box-shadow: rgb(121, 18, 55) 0px 4px 0px 0px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 115px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+.button-signup::before {
+    content: "";
+    background-color: rgb(220, 47, 84);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+.button-signup:hover::before {
+    width: 100%;
+    text-decoration: none;
+  }
+
+
+
+/* Este es el css de la presentación */
+.info-container {
+    display: flex;
+}
+
+.description-container {
+    height: 771px;
+    background-image: url(../IMG/fondo.png);
+}
+
+.info-description {
+    width: 417px;
+    height: 225px;
+    position: relative;
+}
+
+.info-description {
+    width: 50%;
+}
+
+.character1 {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+
+}
+.information {
+    position: absolute;
+    width: 417px;
+    top: 250px;
+    left: 50px;
+    color: white;
+}
+
+.log-in {
+    appearance: none;
+    position: absolute;
+    background-color: #F440DF;
+    border-radius: 25px;
+    box-shadow: #ff52eb 0px 4px 0px 0px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 115px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 410px;
+    left: 300px;
+  }
+
+.log-in::before {
+    content: "";
+    background-color: #f15de0;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+
+.log-in:hover::before {
+    width: 100%;
+  }
+
+/* Este es el css del carrusel */
+.carrusel-container {
+    height: 877px;
+    background-image: url(../IMG/background\ image.png);
+
+}
+
+.movels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.galery {
+    height: 559px;
+}
+
+.galery-cell {
+    width: 66%;
+    height: 559px;
+    margin-right: 60px;
+    background-color: aquamarine;
+    counter-increment: galery-cell;
+    border-radius: 20px;
+}
+
+.showcase {
+    position: absolute;
+    display: flex;
+    width: 1081px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.4) 100%);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.galery .flickity-prev-next-button {
+    width: 80px;
+    height: 80px;
+    background: transparent;
+ }
+.galery .flickity-prev-next-button:hover {
+    background: transparent;
+ }
+.galery .flickity-prev-next-button .arrow {
+    fill: white;
+ }
+
+.flickity-page-dots {
+    margin-top: 0px;
+  }
+
+.galery .flickity-page-dots {
+    bottom: 30px;
+ }
+.galery .flickity-page-dots .dot {
+    width: 30px;
+    height: 4px;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0 solid white;
+    border-radius: 0;
+ }
+.galery .flickity-page-dots .dot.is-selected {
+    background: #f00;
+    border: 0 solid #f00;
+ }
+
+ /* Este es el css de cada carta del carrusel */
+.info-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 200px;
+}
+
+.info-left {
+    width: 50%;
+    padding: 0 40px;
+}
+
+.info-left h1 {
+    text-align: start;
+    font-size: 80px;
+    color: white;
+    margin-right: 120px;
+    font-family: "Tungtesn-Bold";
+    margin-left: 80px;
+    line-height: 70px;
+
+}
+
+.info-left span {
+    color: #F440DF;
+}
+
+.info-left h4 {
+    font-family: "Tungtesn-Bold";
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    margin-left: 180px;
+    margin-bottom: 0;
+}
+
+.info-left p {
+    color: white;
+    font-size: 14px;
+    margin-right: 100px;
+    margin-left: 180px;
+
+}
+
+.info-rigth {
+    width: 50%;
+    position: relative;
+    left: 100px;
+}
+
+.info-rigth img {
+    position: absolute;
+
+}
+
+#sova span {
+    color: #66F7FF;
+
+}
+
+#sage span {
+    color: #421F4D;
+}
+
+#omen span {
+    color: #1A468F;
+}
+
+/* Este es el css de la descripcion de los diseñadores */
+.Web-designers-container {
+    background-color: #FF4655;
+}
+.upcontainer {
+    display: flex;
+    position: relative;
+    height: 656px;
+}
+
+.container-left {
+    position: relative;
+    width: 50%;
+}
+
+.container-right {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.container-right img {
+    position: absolute;
+    top: 550px;
+    right: 50px;
+
+}
+
+.container-right h1{
+    font-family: "Tungtesn-Bold";
+    font-size: 114px;
+    margin-right: 25px;
+    color: #121A23;
+    margin-bottom: 0;
+}
+
+.container-right span {
+    color: white;
+}
+
+.description-designers {
+    background: linear-gradient(266.63deg, rgba(255, 255, 255, 0.4) -7.04%, rgba(255, 255, 255, 0.1) 52.78%);
+    backdrop-filter: blur(21px);
+    border-radius: 30px 0px 0px 30px;
+    width: 713px;
+    height: 300px;
+    top: 0;
+    padding: 40px;
+
+}
+
+#description {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    line-height: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+
+
+#letters{
+    position: relative;
+    bottom: 100px;
+
+}
+
+#banner {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+
+/* Este es el css de los datos de los diseñadores */
+.card {
+    position: relative;
+    background: url(../IMG/fondocartas.png);
+    width: 449px;
+    height: 619px;
+}
+
+.background {
+    height: 607.69px;
+    border-radius: 40px;
+    padding: 50px;
+}
+
+.rol {
+    position: absolute;
+    top: 13px;
+    left: 340px;
+}
+
+.user-name, .email {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 40px;
+}
+
+.email {
+    gap: 80px;
+}
+
+.user-name h4, .email h4 {
+    font-family: "Tungtesn-Bold";
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.user {
+    background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 195.74px;
+  height: 24.58px;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 17px;
+
+}
+
+.user p {
+    margin-left: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    right: 50px;
+    gap: 20px;
+
+}
+
+.position-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 45px;
+    gap: 20px;
+    height: 680px;
+
+}
+
+footer {
+    background-color: #0F1923;
+    height: 543px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-media {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.emailvalorant {
+    color: white;
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.logos-riot {
+    margin-top: 100px;
+}

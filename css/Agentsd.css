@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Tungtesn-Bold";
+    src: url(../Tungsten-Bold.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../IMG/BG2.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    }
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.236) 0%, rgba(255, 255, 255, 0.059) 100%);
+    border-radius: 30px;
+    width: 1000px;
+    height: 500px;
+}
+
+.info-container{
+    margin-top: 5%;
+    margin: 15px;
+    color: white;
+}
+
+.info-container h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.info-container p{
+    font-size: 15px;
+    width: 250px;
+
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-container img{
+    height: 50px;
+    width: 50px;
+}
+
+.title-agent{
+    margin-left: 90px;
+    position: absolute;
+    margin-top: 35%;
+}
+
+.title-agent h1{
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+}
+
+.img-agent{
+    position: absolute;
+    width: 469px;
+    height: 922px;
+    left: 70%;
+    top: 15%;
+}
+
+#fullAgent {
+    width: 700px;
+}

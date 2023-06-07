@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/editprofile.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="logo">
+            <img id="logo" src="../IMG/Logo.png" alt="Logo de Valorant">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./Agent.html">AGENTS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <!--search-->
+        <div class="buscar">
+            <input type="text" placeholder="Search" required />
+            <div class="btn">
+                <i class="fas fa-search icon"></i>
+            </div>
+        </div>
+        <div class="user">
+            <img id="user" src="../IMG/User.png" alt="User" onclick="toggleMenu()">
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../IMG/User.png">
+                        <h3>REYNA</h3>
+                    </div>
+                    <hr>
+
+                    <a href="./profile.html" class="sub-menu-link">
+                        <img src="../IMG/profile.png">
+                        <p>Edit Profile</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="../IMG/setting.png">
+                        <p>Settings & Privacy</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="../IMG/help.png">
+                        <p>Help & Support</p>
+                    </a>
+
+                    <a href="./landing.html" class="sub-menu-link">
+                        <img src="../IMG/logout.png">
+                        <p>Logout</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--Card profile-->
+    <div class="card">
+        <div class="card_info">
+            <div class="info">
+                <div class="id">
+                    <img src="../IMG/cara2cards.png" alt="">
+                    <div id="userID">
+                        <h1 id="us">USER ID</h1>
+                        <label for="us">
+                            <p class="number">0000001</p>
+                        </label>
+                    </div>
+
+                </div>
+                <form id="edit-profile-form" action="#">
+                    <div class="form-design"><label for="nombre">USERNAME:</label>
+                    <input type="text" id="nombre" name="nombre" value="REYNA"></div>
+
+                    <div class="form-design"><label for="email">EMAIL:</label>
+                    <input type="email" id="email" name="email" value="REYNA@email.com"></div>
+
+                    <div class="form-design"><label for="phone">PHONE NUMBER:</label>
+                    <input type="tel" id="phone" name="phone" value="0000000000"></div>
+
+                    <div class="form-design"><label for="password">PASSWORD:</label>
+                    <input type="password" id="password" name="password" value="1234Prueba"></div>
+
+                    <div class="form-design" ><label for="confirm-password">CONFIRM PASSWORD:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" value="1234Prueba"></div>
+
+                    <div class="buttons"><button type="submit" class="guardar">SAVE</button>
+                    <button type="button" class="cancelar" >CANCEL</button></div>
+                 </form>
+            </div>
+            <div class="btn_f">
+                <div><a href="../html/Agent.html">
+                    <h2>SIGN OUT</h2>
+                </a></div>
+            </div>
+            <div class="controler">
+                <img src="../IMG/duelist.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!--JS NAVBAR-->
+    <script src="../js/nav.js"></script>
+    <script src="../js/edit progile.js"></script>
+</body>
+</html>

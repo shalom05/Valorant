@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css-->
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/profile.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <img id="logo" src="../IMG/Logo.png" alt="Logo de Valorant">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./Agent.html">AGENTS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <!--search-->
+        <div class="user">
+            <img id="user" src="../IMG/User.png" alt="User" onclick="toggleMenu()">
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../IMG/User.png">
+                        <h3>REYNA</h3>
+                    </div>
+                    <hr>
+
+                    <a href="./profile.html" class="sub-menu-link">
+                        <img src="../IMG/profile.png">
+                        <p>Edit Profile</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="../IMG/setting.png">
+                        <p>Settings & Privacy</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="../IMG/help.png">
+                        <p>Help & Support</p>
+                    </a>
+
+                    <a href="./landing.html" class="sub-menu-link">
+                        <img src="../IMG/logout.png">
+                        <p>Logout</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--Card profile-->
+
+    <div class="card">
+        <div class="card_info">
+            <div class="info">
+                <div class="id">
+                    <img src="../IMG/cara2cards.png" alt="">
+                    <div id="userID">
+                        <h1 id="us">USER ID</h1>
+                        <label for="us">
+                            <p class="number" id="userIDName">0000001</p>
+                        </label>
+                    </div>
+
+                </div>
+                <div class="info_profile">
+                    <H2>USERNAME</H2>
+                    <P class="box" id="name">REYNA</P>
+                    <H2>EMAIL</H2>
+                    <P class="box" id="email">REYNA@email.com</P>
+                    <H2>PHONE NUMBER</H2>
+                    <p class="box">0000000000</p>
+                    <H2>PASSWORD</H2>
+                    <p class="box" id="password">********</p>
+                </div>
+            </div>
+            <div class="btn_f">
+                <div><a href="../html/Agent.html">
+                    <h2>SIGN OUT</h2>
+                </a></div>
+                <a href="../html/edit profile.html">
+                    <div class="edit_profile"><img src="../IMG/EDIT_PRO.png" alt=""></div>
+                </a>
+            </div>
+            <div class="controler">
+                <img src="../IMG/duelist.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!--JS NAVBAR-->
+    <script src="../js/nav.js"></script>
+    <script src="../js/profile.js"></script>
+
+</body>
+
+</html>

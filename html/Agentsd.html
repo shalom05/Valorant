@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/Agentsd.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="logo">
+            <img id="logo" src="../IMG/Logo.png" alt="Logo de Valorant">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./Agent.html">AGENTS</a></li>
+                <li><a href="./favorites.html">FAVORITES</a></li>
+            </ul>
+        </nav>
+<!--search-->
+        <div class="buscar">
+            <input type="text" placeholder="Search" required />
+            <div class="btn">
+            <i class="fas fa-search icon"></i>
+            </div>
+        </div>
+        <div class="user">
+            <img id="user" src="../IMG/User.png" alt="User" onclick="toggleMenu()">
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../IMG/User.png">
+                        <h2>REYNA</h2>
+                    </div>
+                    <hr>
+
+                    <a href="../html/profile.html" class="sub-menu-link">
+                        <img src="../IMG/profile.png">
+                        <p>Edit Profile</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="../IMG/setting.png">
+                        <p>Settings & Privacy</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="../IMG/help.png">
+                        <p>Help & Support</p>
+                    </a>
+
+                    <a href="./landing.html" class="sub-menu-link">
+                        <img src="../IMG/logout.png">
+                        <p>Logout</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!--Agents-->
+
+    <div class="card-container">
+
+        <div class="info-container">
+            <h2>BASIC</h2>
+            <div class="img-container">
+                <img src="" alt="" id="abilitie1Img"></a>
+                <P id="abilitie1Text"></P>
+            </div>
+        </div>
+
+        <div class="info-container">
+            <h2>SIGNATURE</h2>
+            <div class="img-container">
+                <img src="" alt="" id="abilitie2Img"></a>
+                <P id="abilitie2Text"></P>
+            </div>
+            <div class="img-container">
+                <img src="" alt="" id="abilitie3Img"></a>
+                <P id="abilitie3Text"></P>
+            </div>
+        </div>
+
+        <div class="info-container">
+            <h2>ULTIMATE</h2>
+            <div class="img-container">
+                <img src="" alt="" id="abilitie4Img"></a>
+                <P id="abilitie4Text"></P>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="title-agent">
+        <h1 id="titleAgent"></h1>
+        <hr>
+    </div>
+
+    <div class="img-agent">
+        <img src="" alt="" id="fullAgent">
+    </div>
+
+
+            <!--JS NAVBAR-->
+    <script src="../js/ClaseAgente.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/Agentsd.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Tungtesn-Bold";
+    src: url(../Tungsten-Bold.otf);
+    font-family: "Roboto-Light";
+    src: url(../Roboto-Light.ttf);
+}
+
+
+body{
+    background-image: url(../IMG/BGUEP.png);
+
+}
+.card{
+    padding-top: 60px;
+}
+.card_info{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+
+}
+.card_info{
+    background-image: url(../IMG/CARD_PROFILE.jpg);
+   background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.info{
+    display: flex;
+    width: 100%;
+}
+.id{
+    color: white;
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+#userID{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    margin: 20px;
+    font-size: 20px;
+    font-family: "Roboto-Light";
+    letter-spacing: 6px
+}
+#edit-profile-form{
+
+    padding-left: 10px;
+    color: white;
+    padding-top: 20px;
+    z-index: 4;
+
+}
+.form-design{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 260px;
+    height: 30px;
+    margin-top: 16px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.274) ;
+    text-align: right;
+}
+form label {
+    display: inline-block;
+    text-align: left;
+    width: 130px;
+    font-family: "Tungtesn-Bold";
+    letter-spacing: .5px;
+    font-size: large;
+
+}
+input{
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    color: white;
+    font-family: "Roboto-Light";
+    font-size: small;
+}
+.controler{
+    padding-left: 600px;
+    padding-bottom: 270px;
+    position:absolute;
+    z-index: 1;
+}
+.buttons{
+    padding-left: 220px;
+    padding-top: 75px;
+    position:absolute;
+    z-index: 1;
+}
+.guardar{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(255, 70, 85);
+    border: none;
+    border-radius: 20px;
+    font-family: "Tungtesn-Bold";
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: white;
+}
+.cancelar{
+    margin-left: 25px;
+    width: 70px;
+    height: 30px;
+    background-color: transparent ;
+    border: 1px solid rgb(255, 70, 85);
+    border-radius: 20px;
+    font-family: "Tungtesn-Bold";
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: rgb(255, 70, 85);
+}
+.btn_f{
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 80px;
+}
+h1{
+    font-family: "Tungtesn-Bold";
+    letter-spacing: 2px
+}
+h2{
+    color: white;
+    font-family: "Tungtesn-Bold";
+    margin-bottom: 5px;
+    letter-spacing: 1px
+
+}
+a{
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+p{
+    font-family: "Roboto-Light";
+    font-size: small;
+
+}
+

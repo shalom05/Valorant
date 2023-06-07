@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Tungtesn-Bold";
+    src: url(../Tungsten-Bold.otf);
+    font-family: "Roboto-Light";
+    src: url(../Roboto-Light.ttf);
+}
+
+
+body{
+    background-image: url(../IMG/BGUEP.png);
+
+}
+.card{
+    padding-top: 60px;
+}
+.card_info{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+
+}
+.card_info{
+    background-image: url(../IMG/CARD_PROFILE.jpg);
+   background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.info{
+    display: flex;
+    width: 100%;
+}
+.id{
+    color: white;
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+#userID{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    margin: 20px;
+    font-size: 20px;
+    font-family: "Roboto-Light";
+    letter-spacing: 8px
+}
+.info_profile{
+    padding-left: 100px;
+    color: white;
+    padding-top: 20px;
+
+}
+.controler{
+    padding-left: 600px;
+    padding-bottom: 270px;
+    position:absolute;
+    z-index: 1;
+}
+.box{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0.63%, rgba(255, 255, 255, 0.148) 100%);
+}
+.btn_f{
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 80px;
+}
+.edit_profile{
+    padding-left: 480px;
+    position: relative;
+    z-index: 3;
+}
+h1{
+    font-family: "Tungtesn-Bold";
+    letter-spacing: 2px
+}
+h2{
+    color: white;
+    font-family: "Tungtesn-Bold";
+    margin-bottom: 5px;
+    letter-spacing: 1px
+
+}
+a{
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+p{
+    font-family: "Roboto-Light";
+    font-size: small;
+
+}

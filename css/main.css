@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Tungtesn-Bold";
+    src: url(../Tungsten-Bold.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../IMG/BG2.png");
+    background-size: cover;
+    }
+
+
+.info-container{
+    height: 300px;
+    width: 400px;
+    color: white;
+
+}
+
+.info-container h1{
+    font-size: 80px;
+    font-weight: bolder;
+
+}
+
+.info-container h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+.info-container img{
+    height: 30px;
+    width: auto;
+    margin: 6px;
+}
+
+
+.img-container img{
+    height: 500px;
+    width: auto;
+    margin-left: 70%;
+}
